@@ -23,8 +23,10 @@ Download the code and implements in your code!
 You can perform the genPass() function, with these possible arguments:
 - **(size)** : you can generate a password using downcase characters with a size that you can choose from;
 <br>
+
 - **(size, Array)** : you can generate a password using the characters you choose, passing an array of booleans with the first value for downcase letters, the second for uppercase, the third for numbers, and the fourth for special characters, being random depending on the required size;
 <br>
+
 - **(Array, Array)** : The first array works as follows: you can pass letters in a string to get specific caracters such as ***"d"*** for downcase, ***"u"*** for uppercase, ***"n"*** for numbers, ***"s"*** for symbols and ***"r"*** for random, if you want a specific item that won't change just start the string with the simbolo ***"-"*** and continue your array normally,   the second array works exactly like the previous function;
 
 > ***Exemple 1:*** *console.log(genPass(10)); //dxknajbgku*
