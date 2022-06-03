@@ -30,7 +30,9 @@ You can perform the genPass() function, with these possible arguments:
 - **(Array, Array)** : The first array works as follows: you can pass letters in a string to get specific caracters such as ***"d"*** for downcase, ***"u"*** for uppercase, ***"n"*** for numbers, ***"s"*** for symbols and ***"r"*** for random, if you want a specific item that won't change just start the string with the simbolo ***"-"*** and continue your array normally,   the second array works exactly like the previous function;
 
 > ***Exemple 1:*** *console.log(genPass(10)); //dxknajbgku*
+
 > ***Exemple 2:*** *console.log(genPass(20, [true, true, true, false])); //Vrof7EMTrERyGLBrLNyX*
+
 > ***Exemple 3:*** *console.log(genPass(["uuuddd", "-@", "nnn"], [true, true, true, false])); //FFXrar@273*
 
 ## License
