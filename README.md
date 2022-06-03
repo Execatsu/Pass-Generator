@@ -11,8 +11,6 @@
 <hr />
 
 ## Features
-[//]: # (Add the features of your project here:)
-This app features all the latest tools and practices in mobile development!
 
 - <img src="./js.jpg" alt="License MIT" width="20px"> **Javascript** — Easy to use so you can deploy to other systems
 
